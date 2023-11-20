@@ -1,0 +1,27 @@
+import React from "react";
+import ReactDOM  from "react-dom";
+import Series from "./Netflix";
+import './index.css';
+import Mach from './Mach'
+ReactDOM.render(
+  <>
+  <h1 className='head'> 🎮Welcome To The Game🎮 </h1>
+  <hr></hr>
+  <div className='machine'>
+  <Mach x=' 😒'y='😒 'z='😒'/>
+  <hr></hr>
+  <Mach x=' 😒'y='👌 'z='😒'/>
+  <hr></hr>
+  <Mach x=' ❤️'y='❤️ 'z='❤️'/>
+  <hr></hr>
+  <Mach x=' 😒'y='👌 'z='😒'/>
+  <hr></hr>
+  <Mach x=' ❤️'y='❤️ 'z='❤️'/>
+  <hr></hr>
+  <Mach x=' 😒'y='👌 'z='😒'/>
+  <hr></hr>
+  <Mach x=' ❤️'y='❤️ 'z='❤️'/>
+
+  </div>
+  </>
+,document.getElementById("root"));
