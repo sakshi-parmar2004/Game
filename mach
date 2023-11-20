@@ -1,0 +1,28 @@
+import React from "react" ;
+const x= '';
+const y= '';
+const z='';
+const Mach=(props)=>
+{
+
+  if((x==y) && (y==z))
+  {
+    return (
+    <div className="box2">
+    <h1>{props.x}{props.y}{props.z}</h1>
+    <span>This is matching</span>
+    </div>
+    );
+  }
+  else{
+    return (
+    <div className="box2">
+    <h1>{props.x}{props.y}{props.z}</h1>
+    <span>This is not matching</span>
+    </div>
+    );
+    
+  }
+
+}
+export default Mach ;
