@@ -1,0 +1,22 @@
+body{
+  background-color: antiquewhite;
+}
+.head
+{
+  text-align: center;
+}
+.machine
+{
+  border-radius: 5px;
+  background-color: azure;
+  width:25%;
+  margin-left: 35%;
+  text-align:center;
+}
+.box2
+{
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgb(243, 240, 237);
+  height: 30%;
+}
